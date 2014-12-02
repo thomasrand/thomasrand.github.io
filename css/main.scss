@@ -1,5 +1,5 @@
 $font-stack: Roboto, Arial, sans-serif;
-$primary-accent:  #132C51; /* #18AD90; */
+$primary-accent:  #154894; /* Green - #18AD90; */
 $primary-black: rgba(0,0,0,.87);
 $secondary-black: rgba(0,0,0,.57);
 
@@ -30,6 +30,13 @@ p {
     color: $primary-black;
     font-size: 14px;
     line-height: 21px;
+}
+
+li {
+    font-family: $font-stack;
+    color: $primary-black;
+    font-size: 14px;
+    line-height: 21px;    
 }
 
 .primary-button {
@@ -256,6 +263,42 @@ header {
     height: 225px;
     margin-right: 20px;
     float: left;
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    .overlay {
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,.6);
+        z-index: 100;
+        display: none;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #FFFFFF;
+        cursor: pointer;
+
+        h3 {
+            padding-top: 80px;
+            margin-bottom: 5px;
+            color: #FFFFFF;
+        }
+        p {
+            color: #FFFFFF;
+            font-size: 12px;
+        }
+    }
+
+
+}
+
+.project:hover > .overlay {
+
+    display: block;
 }
 
 .project:last-child {
@@ -297,6 +340,9 @@ header {
 }
 
 footer {
+    background: #111111; 
+    padding-bottom: 0;
+
     p {
         color: #FFFFFF;    
     }
@@ -315,7 +361,7 @@ footer {
         li {
             float: left;
             margin-left: 20px;
-            color: $primary-accent;
+            color: #FFFFFF;
             font-weight: 600;
             
             img {

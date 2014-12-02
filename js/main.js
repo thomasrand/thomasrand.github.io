@@ -1,8 +1,8 @@
 function handle_primary_CTA() {
     $('#primary-cta').click(function(evt) {
         evt.stopImmediatePropagation();
-        
-        $('body').scrollTop($('#services').position().top);
+
+        $('body').animate({scrollTop:$('#services').position().top}, 'slow');
     });
 }
 
@@ -14,8 +14,8 @@ function navigate_to() {
         var target_section_name = $(this).attr('link-to');
         var target_section = $('#' + target_section_name);
         var section_loc = target_section.position().top;
-        
-        $('body').scrollTop(section_loc);
+
+        $('body').animate({scrollTop:section_loc}, 'slow');
     });
 };
 

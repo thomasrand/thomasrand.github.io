@@ -97,18 +97,33 @@
             <h1>Projects</h1>
             <div class="project-listing">
                 <div class="project">
+                    <div class="overlay">
+                        <h3>Project Name</h3>
+                        <p>View Project</p>
+                    </div>
+                    <img src="img/project-1.png">
                 </div>
                 
                 <div class="project">
+                    <div class="overlay">
+                        <h3>NJ Devils</h3>
+                        <p>View Project</p>
+                    </div>
+                    <img src="img/project-2.png">
                 </div>
                 
                 <div class="project">
+                    <div class="overlay">
+                        <h3>Project Name</h3>
+                        <p>View Project</p>
+                    </div>
+                    <img src="img/project-3.png">
                 </div>
                 
                 <div style="clear:both;"></div>
             </div>
             
-            <button class="primary-button">Our Clients</button>
+            <button class="primary-button open-modal" target-modal="clients-modal">Our Clients</button>
             
         </div>
     </div>
@@ -121,7 +136,7 @@
                 <div class="left">
                     <h2>Expert Craftsmanship. Professional Service.</h2>
                     <p>Our mission is to maintain our market segment competitive edge by continuing to provide professional services that encompass high quality shop fabricated steel components and productive field personnel giving rise to optimum customer satisfaction and ongoing, unblemished, relentless, & respectable reputation.</p>
-                    <button class="primary-button open-modal" target-modal="">Cerifications & Capabilities</button>
+                    <button class="primary-button open-modal" target-modal="about-modal">Cerifications & Capabilities</button>
                 </div>
                 
                 <div class="right">
@@ -132,7 +147,7 @@
         </div>
     </div>
     
-    <footer id="contact" class="content-block" style="background: #111111; padding-bottom:0;">
+    <footer id="contact" class="content-block">
         <div class="content-wrapper">
             
             
@@ -156,7 +171,7 @@
         </div>
     </footer>
     
-    <!-- PROJECT MODAL -->
+    <!-- PROCESS MODAL -->
     <div id="process-modal" class="modal">
         <div class="modal-bkg"></div>
         
@@ -202,6 +217,68 @@
                     </div>
                     <div style="clear:both"></div>
                 </div>
+           </div> 
+        </div>  
+    </div>
+
+    <!-- clients MODAL -->
+    <div id="clients-modal" class="modal">
+        <div class="modal-bkg"></div>
+        
+        <div class="modal-wrapper">
+            <div class="modal-header">
+                <img class="close-icon" src="img/x-icon.svg">
+                <h1>Clients</h1>
+            </div>
+            
+            
+            <div class="modal-body">     
+                <p>The experience of IK Construction Inc. in the steel market segment is diverse and represents an attractive tool to our potential customers. I.K. has performed work for a vast number of customers within the private & public sector. Below is a short list of satisfactory clients, to include, but not limited to the following:</p>
+                <ul>
+                    <li>New Jersey Devil / Prudential Center Newark Jersey</li>
+                    <li>Jet Aviation</li>
+                    <li>Gilbane</li>
+                    <li>Tuner</li>
+                    <li>Bovis Lend Lease</li>
+                    <li>Tishman Construction Corporation</li>
+                    <li>The Port Authority of New York & New Jersey</li>
+                    <li>New Jersey Transit</li>
+                    <li>United Airlines</li>
+                    <li>J. A. Jones-GMO</li>
+                    <li>SUNY State University of New York</li>
+                    <li>Pratt University Brooklyn New York</li>
+                    <li>New Jersey School Construction (SDA)</li>
+                    <li>New York City School Construction Authority (SCA)</li>
+                    <li>Woodcliff Lake Municipality</li>
+                </ul>
+           </div> 
+        </div>  
+    </div>
+
+
+    <!-- ABOUT US MODAL -->
+    <div id="about-modal" class="modal">
+        <div class="modal-bkg"></div>
+        
+        <div class="modal-wrapper">
+            <div class="modal-header">
+                <img class="close-icon" src="img/x-icon.svg">
+                <h1>Capabilities & Certifications</h1>
+            </div>
+            
+            
+            <div class="modal-body">     
+                <h2>Certifications</h2>
+                <p>We are certified with following agencies as an MBE, DBE & SBE:</p>
+                <ul>
+                    <li>Port Authority of New York & New Jersey - MBE</li>
+                    <li>New Jersey Transit - DBE</li>
+                    <li>School Construction Authority New York - MBE</li>
+                    <li>School Authority New Jersey - MBE</li>
+                    <li>State of New Jersey - MBE & SBE</li>
+                    <li>Empire State - MBE</li>
+                </ul>
+                <p>Our in-house engineering staff and team of professional employees are dedicated to fulfilling client satisfaction and committed to producing high quality deliverables. The company is continuing a legacy of integrity and quality workmanship exemplified by the professionalism extended to our clients, prime contractors, subcontractors, detailers, suppliers, customers, and employees.</p>
            </div> 
         </div>  
     </div>
