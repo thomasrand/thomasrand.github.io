@@ -1,1 +1,215 @@
-Hello World
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="content-wrapper">
+            <img class="logo" src="img/logo-blue.png">
+            <div class="primary-navigation">
+                <ul>
+                    <li link-to="services">Services</li>
+                    <li link-to="projects">Projects</li>
+                    <li link-to="about">About Us</li>
+                    <li link-to="contact">Contact</li>
+                    <div style="clear: both;"></div>
+                </ul>
+                <!--
+                <div class="utility">
+                    <p>999-999-9999</p>
+                </div>
+                -->
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+        
+    </header>
+
+    <div class='hero'>
+        <div class="hero-overlay"></div>
+        <img src="img/hero.png">
+        
+        <div class="hero-copy">
+            <div class="content-wrapper">
+                <h1>Leaders in Steel Erection & Fabrication.</h1> 
+                <p>We are cerified by in the tri-state area as an MBE, DBE, and SBE construction company and proven project success backed by our top notch in-house engineering staff.</p>
+            </div>
+            <button id="primary-cta" class="primary-button">Browse Our Services</button>
+        </div>
+        
+        <div class="quote-block">
+        <div class="content-wrapper">
+            <p>"IK Construction was responsible or taking basic design concept drawings a of the two iconic glass and steel cylinders and developing detailed shop drawings that included hundreds of welded and bolted unique connections."</p>    
+            <div class="testimonial-credit">
+                <p>Jim Cima, Senior Vice President</p>
+                <p>Devils Renaissance Development</p>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    
+    <div id="services" class="content-block">
+        <div class="content-wrapper" style="padding-top:60px">
+            <h1>Services</h1>
+            
+            <div class="service-listing">
+                <div class="service">
+                    <h2>Steel Fabrication</h2>
+                    <p>We fabricate all types of structural steel and miscellaneous metals within budgets and on time. AISC Certified. </p>
+                </div>
+                
+                <div class="service">
+                    <h2>Steel Erection</h2>
+                    <p>Private commercial buildings, major airports, arenas, public works.  We&#39ve done it all. AISC Certified. </p>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+            
+            <div class="service-listing">
+                <div class="service">
+                    <h2>Engineering & Design Services</h2>
+                    <p>We will provide the most cost effective design with meeting the owner&#39s requirements for each project. We also provide certified drawings and certified jobsite audits at the customers request.</p>
+                </div>
+                
+                <div class="service">
+                    <h2>Structural Renovation & Retrofitting</h2>
+                    <p>We have experience in demolition and refitting of structural steel to existing structures.</p>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+                
+            <button class="primary-button open-modal" target-modal="process-modal">Safety & Process</button>    
+                
+                
+            </div>
+            
+        </div>
+    </div>
+    
+    <div id="projects" class="content-block" style="background: #f7f7f7;">
+        <div class="content-wrapper">
+            <h1>Projects</h1>
+            <div class="project-listing">
+                <div class="project">
+                </div>
+                
+                <div class="project">
+                </div>
+                
+                <div class="project">
+                </div>
+                
+                <div style="clear:both;"></div>
+            </div>
+            
+            <button class="primary-button">Our Clients</button>
+            
+        </div>
+    </div>
+    
+    <div id="about" class="content-block">
+        <div class="content-wrapper">
+            <h1>About Us</h1>
+            
+            <div class="two-col">
+                <div class="left">
+                    <h2>Expert Craftsmanship. Professional Service.</h2>
+                    <p>Our mission is to maintain our market segment competitive edge by continuing to provide professional services that encompass high quality shop fabricated steel components and productive field personnel giving rise to optimum customer satisfaction and ongoing, unblemished, relentless, & respectable reputation.</p>
+                    <button class="primary-button open-modal" target-modal="">Cerifications & Capabilities</button>
+                </div>
+                
+                <div class="right">
+                    <img src="img/group-shot.png">   
+                </div>
+                <div style="clear:both"></div>
+            </div>
+        </div>
+    </div>
+    
+    <footer id="contact" class="content-block" style="background: #111111; padding-bottom:0;">
+        <div class="content-wrapper">
+            
+            
+            <div class="left" style="color:#FFFFFF">
+                <p>I.K. Construction Incorporated</p>
+                <p>PO Box 944</p>
+                <p>South Orange, NJ 07079</p>
+            </div>
+            <div class="right">
+                <ul>
+                    <li class="mail-to"><img src="img/phone-icon.png">sales@ikconstructioninc.com</li>
+                    <li><img src="img/phone-icon.png">999-999-999</li>
+                </ul>
+                <div style="clear:both"></div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="contact-header">
+                <p>Contact Us</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- PROJECT MODAL -->
+    <div id="process-modal" class="modal">
+        <div class="modal-bkg"></div>
+        
+        <div class="modal-wrapper">
+            <div class="modal-header">
+                <img class="close-icon" src="img/x-icon.svg">
+                <h1>Safety & Process</h1>
+            </div>
+            
+            
+            <div class="modal-body">     
+                <p>Our staff has over 20 years of experience in all aspects of shop safety, rigging, hoisting, manlift and forklift operational training. We at IK Construction know that safety for the job and our people is of upmost importance. We are constantly promoting, training, and delivering our safety directive.  Aspects in our process include:</p>
+                <div class="service-listing">
+                    <div class="service">
+                        <h2>In-Process Inspection & Testing</h2>
+                        <p>We maintain the quality of the steel components throughout the shop fabrication process by performing proper inspection and testing of compents based on ASI criteria and applicable codes and regulations.</p>
+                    </div>
+                    
+                    <div class="service">
+                        <h2>Final Inspection & Testing</h2>
+                        <p>Once the compoenent is fabricated to its final phase, a final inspection and testing is done of all steel components ensuring the steel is fabricated in total accordance to ASI criteria and approved shop drawing configurations.</p>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+
+                <div class="service-listing">
+                    <div class="service">
+                        <h2>Process Controls</h2>
+                        <p>Production and installation require seamless coordination between project management and superintendent through our field management.</p>
+                    </div>
+
+                    <div class="service">
+                        <h2>Site Installation</h2>
+                        <p>IKC understands that a project is successful only if there is a constant flow of productivity from the shop to the field. Field personnel are trained to follow system guidelines in ensuring that installations are done to conform to approved shop drawing configurations.</p>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+                
+                <div class="service-listing">
+                    <div class="service">
+                        <h2>Material Quality Assurance</h2>
+                        <p>We ensure that all raw materials being purchased conform to contract requirements and material criteria.</p>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+           </div> 
+        </div>  
+    </div>
+    
+</body>
+
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+    
+    
+</html>

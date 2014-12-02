@@ -1,0 +1,69 @@
+.no-scroll {
+    height: 100%;
+    overflow: hidden;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 1000;
+    overflow-y: auto;
+    background: rgba(0,0,0,.6);
+    
+    .modal-bkg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .modal-wrapper {
+        position: relative;
+        margin: 5% auto 5% auto;
+        width: 920px;
+        background: #FFFFFF;
+        padding: 40px 0 0 0;
+        z-index: 1200;
+        box-shadow: 0 0 4px 0 rgba(0,0,0,.75);
+        
+        .modal-header {
+            padding: 0 40px;   
+            
+            h1 {
+                margin-bottom: 20px;    
+            }
+        }
+        
+        .modal-body {
+            padding: 0 40px;     
+            overflow-y: auto;    
+        }
+        
+        .service-listing {
+            width: auto;
+            
+            .service {
+                width: 360px;
+                
+            }
+            
+            .service:first-child {
+                margin-right: 80px;    
+                
+            }
+        }
+        
+        .close-icon {
+            position: absolute;
+            top: 40;
+            right: 40;
+            cursor: pointer;
+        }
+
+    }
+}
