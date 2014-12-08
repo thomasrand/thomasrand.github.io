@@ -27,7 +27,7 @@
     margin: 5% auto 5% auto;
     width: 920px;
     background: #FFFFFF;
-    padding: 40px 0 0 0;
+    padding: 40px 0;
     z-index: 1200;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.75); }
     /* line 34, /Users/trand/Sites/007.IK_Construction/www/css/modal.scss */
@@ -40,20 +40,47 @@
     .modal .modal-wrapper .modal-body {
       padding: 0 40px;
       overflow-y: auto; }
-    /* line 47, /Users/trand/Sites/007.IK_Construction/www/css/modal.scss */
+      /* line 46, /Users/trand/Sites/007.IK_Construction/www/css/modal.scss */
+      .modal .modal-wrapper .modal-body p {
+        margin: 10px 0; }
+      /* line 50, /Users/trand/Sites/007.IK_Construction/www/css/modal.scss */
+      .modal .modal-wrapper .modal-body ul {
+        padding-left: 20px; }
+    /* line 59, /Users/trand/Sites/007.IK_Construction/www/css/modal.scss */
     .modal .modal-wrapper .service-listing {
       width: auto; }
-      /* line 50, /Users/trand/Sites/007.IK_Construction/www/css/modal.scss */
+      /* line 62, /Users/trand/Sites/007.IK_Construction/www/css/modal.scss */
       .modal .modal-wrapper .service-listing .service {
         width: 360px; }
-      /* line 55, /Users/trand/Sites/007.IK_Construction/www/css/modal.scss */
+      /* line 67, /Users/trand/Sites/007.IK_Construction/www/css/modal.scss */
       .modal .modal-wrapper .service-listing .service:first-child {
         margin-right: 80px; }
-    /* line 61, /Users/trand/Sites/007.IK_Construction/www/css/modal.scss */
+    /* line 73, /Users/trand/Sites/007.IK_Construction/www/css/modal.scss */
     .modal .modal-wrapper .close-icon {
       position: absolute;
       top: 40;
       right: 40;
-      cursor: pointer; }
+      cursor: pointer;
+      width: 20px; }
+    /* line 81, /Users/trand/Sites/007.IK_Construction/www/css/modal.scss */
+    .modal .modal-wrapper .certifications {
+      margin: 40px auto 0 auto;
+      width: 430px; }
+      /* line 86, /Users/trand/Sites/007.IK_Construction/www/css/modal.scss */
+      .modal .modal-wrapper .certifications img {
+        width: 200px; }
+      /* line 90, /Users/trand/Sites/007.IK_Construction/www/css/modal.scss */
+      .modal .modal-wrapper .certifications img:first-child {
+        margin-right: 20px; }
+    /* line 96, /Users/trand/Sites/007.IK_Construction/www/css/modal.scss */
+    .modal .modal-wrapper .featured-image {
+      display: inline-block;
+      width: 40%;
+      float: right;
+      margin-left: 20px; }
+    /* line 103, /Users/trand/Sites/007.IK_Construction/www/css/modal.scss */
+    .modal .modal-wrapper .primary-button a {
+      text-decoration: none;
+      color: inherit; }
 
 /*# sourceMappingURL=modal.css.map */

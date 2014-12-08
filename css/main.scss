@@ -1,5 +1,5 @@
 $font-stack: Roboto, Arial, sans-serif;
-$primary-accent:  #132C51; /* #18AD90; */
+$primary-accent:  #154894; /* Green - #18AD90; */
 $primary-black: rgba(0,0,0,.87);
 $secondary-black: rgba(0,0,0,.57);
 
@@ -32,6 +32,22 @@ p {
     line-height: 21px;
 }
 
+li {
+    font-family: $font-stack;
+    color: $primary-black;
+    font-size: 14px;
+    line-height: 21px;    
+}
+
+a {
+    color: #00a0dd;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #00a0dd;   
+}
+
 .primary-button {
     border: 2px solid $primary-accent;
     width: 300px;
@@ -54,10 +70,11 @@ p {
 
 header {
     position: absolute;
+    top: 1;
     padding: 10px 0;
     width: 100%;
     z-index: 200;
-    background: rgba(0,0,0,.4);
+    background: rgba(255,255,255,.5);
 
     .logo {
         width: 175px;
@@ -117,8 +134,7 @@ header {
 
 
 .hero {
-    width: 100%;
-    
+    width: 100%;   
     height: 100%;
     background: #FFFFFF;
     position: relative;
@@ -139,7 +155,7 @@ header {
         text-align: center;
         width: 100%;
         z-index: 200;
-        
+        display: none;
         
         
         h1 {
@@ -175,7 +191,7 @@ header {
     
     
     .quote-block {
-        bottom: -75px;
+        bottom: 0px;
         position: absolute;
         z-index: 200;
         
@@ -201,9 +217,8 @@ header {
     img {
         margin: 0 auto;       
         display: block;
-        height: 100%;
-        width: auto; 
-        max-width: 1785px;
+        height: auto;
+        width: 100%;
 
     }    
 } 
@@ -224,6 +239,14 @@ header {
     
     .primary-button {
         margin: 40px auto 0 auto;    
+    }
+    
+    ul {
+        padding-left: 20px;
+        margin-top: 20px;
+        li {
+
+        }
     }
 }
 
@@ -256,6 +279,42 @@ header {
     height: 225px;
     margin-right: 20px;
     float: left;
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    .overlay {
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,.6);
+        z-index: 100;
+        display: none;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #FFFFFF;
+        cursor: pointer;
+
+        h3 {
+            padding-top: 80px;
+            margin-bottom: 5px;
+            color: #FFFFFF;
+        }
+        p {
+            color: #FFFFFF;
+            font-size: 12px;
+        }
+    }
+
+
+}
+
+.project:hover > .overlay {
+
+    display: block;
 }
 
 .project:last-child {
@@ -297,6 +356,9 @@ header {
 }
 
 footer {
+    background: #111111; 
+    padding-bottom: 0;
+
     p {
         color: #FFFFFF;    
     }
@@ -312,10 +374,11 @@ footer {
     }
     
     ul {
+        margin-top: 10px !important;
         li {
             float: left;
             margin-left: 20px;
-            color: $primary-accent;
+            color: #FFFFFF;
             font-weight: 600;
             
             img {

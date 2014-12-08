@@ -4,6 +4,7 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <title>I.K. Construction, Inc.</title>
 </head>
 
 <body>
@@ -15,8 +16,8 @@
                 <ul>
                     <li link-to="services">Services</li>
                     <li link-to="projects">Projects</li>
+                    <li link-to="clients">Clients</li>
                     <li link-to="about">About Us</li>
-                    <li link-to="contact">Contact</li>
                     <div style="clear: both;"></div>
                 </ul>
                 <!--
@@ -32,7 +33,7 @@
 
     <div class='hero'>
         <div class="hero-overlay"></div>
-        <img src="img/hero.png">
+        <img src="img/hero_dark.jpg">
         
         <div class="hero-copy">
             <div class="content-wrapper">
@@ -55,18 +56,18 @@
     </div>
     
     <div id="services" class="content-block">
-        <div class="content-wrapper" style="padding-top:60px">
+        <div class="content-wrapper">
             <h1>Services</h1>
             
             <div class="service-listing">
                 <div class="service">
                     <h2>Steel Fabrication</h2>
-                    <p>We fabricate all types of structural steel and miscellaneous metals within budgets and on time. AISC Certified. </p>
+                    <p>Our firm fabricates all types of structural steel and miscellaneous metals in conformance with AISC requirements through a shop fabrication assembly process that entails welding, binding, riveting, and fastening of steel components. AISC Certified.</p>
                 </div>
                 
                 <div class="service">
                     <h2>Steel Erection</h2>
-                    <p>Private commercial buildings, major airports, arenas, public works.  We&#39ve done it all. AISC Certified. </p>
+                    <p>Our Ironworkers assemble and erect the structural steel framework for single and multi-story buildings, stadiums, arenas, hospitals, towers, and airports in accordance with engineering drawings and AISC standards to the complete satisfaction of our clients.  </p>
                 </div>
                 <div style="clear:both"></div>
             </div>
@@ -74,17 +75,17 @@
             <div class="service-listing">
                 <div class="service">
                     <h2>Engineering & Design Services</h2>
-                    <p>We will provide the most cost effective design with meeting the owner&#39s requirements for each project. We also provide certified drawings and certified jobsite audits at the customers request.</p>
+                    <p>IK Construction ensures that the required shop fabrication drawings for steel erection are accurately prepared through a process called steel detailing. Our steel detailer prepares accurate drawings as a basis for shop fabrication & erection of all types of steel members, such as columns, beams, braces, trusses, stairs, handrails, joists, and metal decking.</p>
                 </div>
                 
                 <div class="service">
                     <h2>Structural Renovation & Retrofitting</h2>
-                    <p>We have experience in demolition and refitting of structural steel to existing structures.</p>
+                    <p>IK Construction has substantial experience in disassembling & retrofitting of existing steel structures. We assess and diagnose common problems with structural integrity of buildings, as well as strengthening & repairing any existing structural damages. </p>
                 </div>
                 <div style="clear:both"></div>
             </div>
                 
-            <button class="primary-button open-modal" target-modal="process-modal">Safety & Process</button>    
+            <button class="primary-button open-modal" target-modal="process-modal">Safety & Quality</button>    
                 
                 
             </div>
@@ -96,24 +97,62 @@
         <div class="content-wrapper">
             <h1>Projects</h1>
             <div class="project-listing">
-                <div class="project">
+                <div class="project open-modal" target-modal="project1-modal">
+                    <div class="overlay">
+                        <h3>NJ Devils Arena</h3>
+                        <p>View Project</p>
+                    </div>
+                    <img src="img/project-2.png">
                 </div>
                 
-                <div class="project">
+                <div class="project" style="display:none">
+                    <div class="overlay">
+                        <h3>NJ Devils</h3>
+                        <p>View Project</p>
+                    </div>
+                    <img src="img/project-2.png">
                 </div>
                 
-                <div class="project">
+                <div class="project" style="display:none">
+                    <div class="overlay">
+                        <h3>Project Name</h3>
+                        <p>View Project</p>
+                    </div>
+                    <img src="img/project-3.png">
                 </div>
                 
                 <div style="clear:both;"></div>
             </div>
-            
-            <button class="primary-button">Our Clients</button>
-            
         </div>
     </div>
     
-    <div id="about" class="content-block">
+    
+    <div id="clients" class="content-block">
+        <div class="content-wrapper">
+            <h1>Clients</h1>
+            <p>The experience of IK Construction Inc. in the steel market segment is diverse and represents an attractive tool to our potential customers. I.K. has performed work for a vast number of customers within the private & public sector. Below is a short list of satisfactory clients, to include, but not limited to the following:</p>
+                <ul>
+                    <li>New Jersey Devils / Prudential Center Newark Jersey (<a href="img/NJDevils_Recommendation.pdf" target="_blank">View Recommendation Letter</a>)</li>
+                    <li>Jet Aviation (<a href="img/JetAviation_Recommendation.pdf" target="_blank">View Recommendation Letter</a>)</li>
+                    <li>Gilbane (<a href="img/Gilbane_Recommendation%20.pdf" target="_blank">View Recommendation Letter</a>)</li>
+                    <li>Tuner</li>
+                    <li>Bovis Lend Lease</li>
+                    <li>Tishman Construction Corporation</li>
+                    <li>The Port Authority of New York & New Jersey</li>
+                    <li>New Jersey Transit</li>
+                    <li>United Airlines</li>
+                    <li>J. A. Jones-GMO</li>
+                    <li>SUNY State University of New York</li>
+                    <li>Pratt University Brooklyn New York</li>
+                    <li>New Jersey School Construction (SDA)</li>
+                    <li>New York City School Construction Authority (SCA)</li>
+                    <li>Woodcliff Lake Municipality (<a href="img/WoodcliffLake_Recommendation.pdf" target="_blank">View Recommendation Letter</a>)</li>
+                </ul>
+        </div>
+    </div>
+    
+    
+    <div id="about" class="content-block" style="background: #f7f7f7;">
         <div class="content-wrapper">
             <h1>About Us</h1>
             
@@ -121,7 +160,7 @@
                 <div class="left">
                     <h2>Expert Craftsmanship. Professional Service.</h2>
                     <p>Our mission is to maintain our market segment competitive edge by continuing to provide professional services that encompass high quality shop fabricated steel components and productive field personnel giving rise to optimum customer satisfaction and ongoing, unblemished, relentless, & respectable reputation.</p>
-                    <button class="primary-button open-modal" target-modal="">Cerifications & Capabilities</button>
+                    <button class="primary-button open-modal" target-modal="about-modal">Cerifications & Capabilities</button>
                 </div>
                 
                 <div class="right">
@@ -132,7 +171,7 @@
         </div>
     </div>
     
-    <footer id="contact" class="content-block" style="background: #111111; padding-bottom:0;">
+    <footer id="contact" class="content-block">
         <div class="content-wrapper">
             
             
@@ -143,8 +182,8 @@
             </div>
             <div class="right">
                 <ul>
-                    <li class="mail-to"><img src="img/phone-icon.png">sales@ikconstructioninc.com</li>
-                    <li><img src="img/phone-icon.png">999-999-999</li>
+                    <li class="mail-to"><img src="img/email-icon.png">sales@ikconstructioninc.com</li>
+                    <li><img src="img/phone-icon.png">908-925-5200</li>
                 </ul>
                 <div style="clear:both"></div>
             </div>
@@ -156,28 +195,28 @@
         </div>
     </footer>
     
-    <!-- PROJECT MODAL -->
+    <!-- PROCESS MODAL -->
     <div id="process-modal" class="modal">
         <div class="modal-bkg"></div>
         
         <div class="modal-wrapper">
             <div class="modal-header">
                 <img class="close-icon" src="img/x-icon.svg">
-                <h1>Safety & Process</h1>
+                <h1>Safety & Quality</h1>
             </div>
             
             
             <div class="modal-body">     
-                <p>Our staff has over 20 years of experience in all aspects of shop safety, rigging, hoisting, manlift and forklift operational training. We at IK Construction know that safety for the job and our people is of upmost importance. We are constantly promoting, training, and delivering our safety directive.  Aspects in our process include:</p>
+                <p>Our staff has over 20 years of experience in all aspects of shop safety, rigging, hoisting, man lift and forklift operations. IK Construction knows that safety is of upmost importance during field activity. We also understand the value of quality control and quality assurance. Our company quality management system procedures are constantly being updated to reflect new industry equipment technology and the latest ISO & AISC standards.</p>
                 <div class="service-listing">
                     <div class="service">
                         <h2>In-Process Inspection & Testing</h2>
-                        <p>We maintain the quality of the steel components throughout the shop fabrication process by performing proper inspection and testing of compents based on ASI criteria and applicable codes and regulations.</p>
+                        <p>IK Construction maintains the highest quality of our steel components throughout the shop fabrication process by performing intermediary inspection and testing of steel components based on ISO & AISC criteria and applicable codes and regulations.</p>
                     </div>
                     
                     <div class="service">
                         <h2>Final Inspection & Testing</h2>
-                        <p>Once the compoenent is fabricated to its final phase, a final inspection and testing is done of all steel components ensuring the steel is fabricated in total accordance to ASI criteria and approved shop drawing configurations.</p>
+                        <p>Once the steel members or components are fabricated at their final phase, we proceed with a final inspection and testing of all steel members to ensure that the steel is fabricated in total accordance with AISC criteria and approved shop drawing configurations.</p>
                     </div>
                     <div style="clear:both"></div>
                 </div>
@@ -185,23 +224,71 @@
                 <div class="service-listing">
                     <div class="service">
                         <h2>Process Controls</h2>
-                        <p>Production and installation require seamless coordination between project management and superintendent through our field management.</p>
+                        <p>IK Construction delivers high quality steel structures to our clients due to a rigorous seamless coordination among our shop fabrication assembly workers, our project managers and our field quality control managers.</p>
                     </div>
 
                     <div class="service">
                         <h2>Site Installation</h2>
-                        <p>IKC understands that a project is successful only if there is a constant flow of productivity from the shop to the field. Field personnel are trained to follow system guidelines in ensuring that installations are done to conform to approved shop drawing configurations.</p>
+                        <p>IK Construction understands the value of establishing continuity of our quality management system processes from our shop to the job site. Our field personnel are trained to follow quality management system guidelines to help ensure that all steel structures are installed according to the highest quality expectations of our clients.</p>
                     </div>
                     <div style="clear:both"></div>
+                </div>
+           </div> 
+        </div>  
+    </div>
+
+
+    <!-- ABOUT US MODAL -->
+    <div id="about-modal" class="modal">
+        <div class="modal-bkg"></div>
+        
+        <div class="modal-wrapper">
+            <div class="modal-header">
+                <img class="close-icon" src="img/x-icon.svg">
+                <h1>Capabilities & Certifications</h1>
+            </div>
+            
+            
+            <div class="modal-body">     
+                <h2>Certifications</h2>
+                <p>We are certified with following agencies as an MBE, DBE & SBE:</p>
+                <ul>
+                    <li>Port Authority of New York & New Jersey - MBE</li>
+                    <li>New Jersey Transit - DBE</li>
+                    <li>School Construction Authority New York - MBE</li>
+                    <li>School Authority New Jersey - MBE</li>
+                    <li>State of New Jersey - MBE & SBE</li>
+                    <li>Empire State - MBE</li>
+                </ul>
+                <p>Our in-house engineering staff and team of professional employees are dedicated to fulfilling client satisfaction and committed to producing high quality deliverables. The company is continuing a legacy of integrity and quality workmanship exemplified by the professionalism extended to our clients, prime contractors, subcontractors, detailers, suppliers, customers, and employees.</p>
+                <div class="certifications">
+                    <img src="img/aisc.png">
+                    <img src="img/mbe.png">
                 </div>
                 
-                <div class="service-listing">
-                    <div class="service">
-                        <h2>Material Quality Assurance</h2>
-                        <p>We ensure that all raw materials being purchased conform to contract requirements and material criteria.</p>
-                    </div>
-                    <div style="clear:both"></div>
-                </div>
+            </div> 
+         
+        </div>  
+    </div>
+    
+    
+    <!-- NJ DEVILS MODAL -->
+    <div id="project1-modal" class="modal">
+        <div class="modal-bkg"></div>
+        
+        <div class="modal-wrapper">
+            <div class="modal-header">
+                <img class="close-icon" src="img/x-icon.svg">
+                <h1>New Jersey Devils Arena (Prudential Center)</h1>
+            </div>
+            
+            <div class="modal-body">  
+                <img class="featured-image" src="img/nj_devils_pic1.JPG">
+                <p>IK Construction was awarded this project that entailed two iconic glass and steel cylinders. IKC developed detailed shop drawings that were consistent with design configurations. Our shop drawings included hundreds of welded and bolted unique connections. IKC fabricated all the structural steel members in our own fabrication shop facility. Fabricated structural members of the iconic glass & steel cylinders were then delivered to the job site, and subsequently erected on time and per budget by IKC.</p>
+              
+                <p>Erection for cylindrical Tube members were very difficult to erect due to the need for them to be in a cylindrical shape. During erection, when the sun beam shines on the the members, it takes a different shape. We had to have a full time Surveyor on site to keep shooting the elevation to direct us on the true plumbness. Many structural calculations were necessary to maintain the proper plumbness during erection.</p>
+                <p>This very complex joint design was never previously associated with any structural design including that of ASIC. This was the first design of its class.  Intensive Engineering input was put forth to implement this design and translates this design into reality.  I.K. Construction was able to overcome every challenge to make this project a success.  This project was featured the best project for 2008 in the McGraw Hill Construction magazine</p>
+                <button class="primary-button"><a href="img/NJDevils_Recommendation.pdf" target="_blank">Download Recommendation Letter</a></button>
            </div> 
         </div>  
     </div>
@@ -209,6 +296,7 @@
 </body>
 
 <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
     
     

@@ -1,4 +1,4 @@
-/* #18AD90; */
+/* Green - #18AD90; */
 /* ----- GLOBAL STYLES ----- */
 /* line 7, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
 * {
@@ -29,12 +29,28 @@ p {
   line-height: 21px; }
 
 /* line 35, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+li {
+  font-family: Roboto, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 14px;
+  line-height: 21px; }
+
+/* line 42, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+a {
+  color: #00a0dd;
+  text-decoration: none; }
+
+/* line 47, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+a:visited {
+  color: #00a0dd; }
+
+/* line 51, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
 .primary-button {
-  border: 2px solid #132C51;
+  border: 2px solid #154894;
   width: 300px;
   text-align: center;
   font-family: Roboto, Arial, sans-serif;
-  color: #132C51;
+  color: #154894;
   font-size: 16px;
   padding: 15px 0;
   display: block;
@@ -42,35 +58,36 @@ p {
   cursor: pointer;
   outline: none; }
 
-/* line 49, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+/* line 65, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
 .primary-button:hover {
-  background: #132C51;
+  background: #154894;
   color: #ffffff;
   transition: 0.2s; }
 
-/* line 55, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+/* line 71, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
 header {
   position: absolute;
+  top: 1;
   padding: 10px 0;
   width: 100%;
   z-index: 200;
-  background: rgba(0, 0, 0, 0.4); }
-  /* line 62, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+  background: rgba(255, 255, 255, 0.5); }
+  /* line 79, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
   header .logo {
     width: 175px;
     margin-right: 20px;
     float: left; }
-  /* line 68, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+  /* line 85, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
   header .primary-navigation {
     float: right;
     font-size: 14px; }
-    /* line 73, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+    /* line 90, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
     header .primary-navigation ul {
       float: left;
       position: relative;
       top: 5px;
       /* background: rgba(11,104,86,.75); */ }
-      /* line 79, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+      /* line 96, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
       header .primary-navigation ul li {
         list-style: none;
         float: left;
@@ -81,29 +98,29 @@ header {
         text-transform: uppercase;
         cursor: pointer;
         letter-spacing: 0.5; }
-      /* line 92, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+      /* line 109, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
       header .primary-navigation ul li:hover {
-        color: #132C51; }
-      /* line 96, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+        color: #154894; }
+      /* line 113, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
       header .primary-navigation ul li:nth-child(4) {
         /* margin-right: 0px;  */ }
-      /* line 100, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+      /* line 117, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
       header .primary-navigation ul .phone-number {
         color: #0B6856;
         cursor: auto; }
-    /* line 108, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+    /* line 125, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
     header .primary-navigation .utility {
       float: right;
-      color: #132C51;
+      color: #154894;
       margin: 20px 20px; }
 
-/* line 119, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+/* line 136, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
 .hero {
   width: 100%;
   height: 100%;
   background: #FFFFFF;
   position: relative; }
-  /* line 126, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+  /* line 142, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
   .hero .hero-overlay {
     position: absolute;
     top: 0;
@@ -112,14 +129,15 @@ header {
     width: 100%;
     z-index: 100;
     background: rgba(0, 0, 0, 0.1); }
-  /* line 136, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+  /* line 152, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
   .hero .hero-copy {
     top: 30%;
     position: absolute;
     text-align: center;
     width: 100%;
-    z-index: 200; }
-    /* line 145, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+    z-index: 200;
+    display: none; }
+    /* line 161, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
     .hero .hero-copy h1 {
       color: #FFFFFF;
       font-weight: 500;
@@ -128,7 +146,7 @@ header {
       background: rgba(0, 0, 0, 0);
       width: 600px;
       margin: 0 auto; }
-    /* line 155, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+    /* line 171, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
     .hero .hero-copy p {
       color: #FFF;
       width: 75%;
@@ -136,104 +154,137 @@ header {
       text-shadow: 0px 2px rgba(0, 0, 0, 0.2);
       background: rgba(0, 0, 0, 0.2);
       display: none; }
-    /* line 164, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+    /* line 180, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
     .hero .hero-copy button {
       margin: 40px auto 0 auto;
-      background: #132C51;
+      background: #154894;
       color: #FFFFFF; }
-  /* line 177, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+  /* line 193, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
   .hero .quote-block {
-    bottom: -75px;
+    bottom: 0px;
     position: absolute;
     z-index: 200; }
-    /* line 183, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+    /* line 199, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
     .hero .quote-block p {
-      color: #132C51;
+      color: #154894;
       font-size: 18px;
       line-height: 30px; }
-    /* line 189, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+    /* line 205, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
     .hero .quote-block .testimonial-credit {
       margin-top: 20px; }
-      /* line 192, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+      /* line 208, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
       .hero .quote-block .testimonial-credit p {
         font-size: 12px;
         line-height: 18px; }
-  /* line 201, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+  /* line 217, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
   .hero img {
     margin: 0 auto;
     display: block;
-    height: 100%;
-    width: auto;
-    max-width: 1785px; }
+    height: auto;
+    width: 100%; }
 
-/* line 211, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+/* line 226, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
 .quote-block {
   background: #f9f9f9;
   width: 100%;
   padding: 40px 0; }
 
-/* line 217, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+/* line 232, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
 .content-block {
   padding: 60px 0;
   width: 100%; }
-  /* line 221, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+  /* line 236, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
   .content-block h1 {
     text-align: center; }
-  /* line 225, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+  /* line 240, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
   .content-block .primary-button {
     margin: 40px auto 0 auto; }
+  /* line 244, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+  .content-block ul {
+    padding-left: 20px;
+    margin-top: 20px; }
 
-/* line 231, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+/* line 254, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
 .content-wrapper {
   width: 960px;
   margin: 0 auto;
   position: relative; }
 
-/* line 237, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+/* line 260, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
 .service-listing {
   margin: 40px auto;
   width: 800px; }
-  /* line 242, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+  /* line 265, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
   .service-listing .service {
     width: 300px;
     float: left; }
-  /* line 247, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+  /* line 270, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
   .service-listing .service:first-child {
     margin-right: 200px; }
 
-/* line 252, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+/* line 275, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
 .project {
   background: #CCCCCC;
   width: 300px;
   height: 225px;
   margin-right: 20px;
-  float: left; }
+  float: left;
+  position: relative; }
+  /* line 284, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+  .project img {
+    width: 100%; }
+  /* line 288, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+  .project .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #FFFFFF;
+    cursor: pointer; }
+    /* line 301, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+    .project .overlay h3 {
+      padding-top: 80px;
+      margin-bottom: 5px;
+      color: #FFFFFF; }
+    /* line 306, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+    .project .overlay p {
+      color: #FFFFFF;
+      font-size: 12px; }
 
-/* line 261, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+/* line 315, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+.project:hover > .overlay {
+  display: block; }
+
+/* line 320, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
 .project:last-child {
   margin-right: 0; }
 
-/* line 265, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+/* line 324, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
 .two-col {
   padding: 0 20px; }
-  /* line 269, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+  /* line 328, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
   .two-col .left {
     float: left;
     width: 380px; }
-  /* line 273, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+  /* line 332, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
   .two-col .right {
     float: right;
     width: 380px; }
-    /* line 277, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+    /* line 336, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
     .two-col .right img {
       width: 100%; }
-  /* line 282, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+  /* line 341, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
   .two-col .primary-button {
     margin: 20px 0 0 0; }
 
-/* line 287, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+/* line 346, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
 .contact-header {
-  background: #132C51;
+  background: #154894;
   padding: 10px 40px;
   text-align: center;
   margin: 0 auto;
@@ -243,31 +294,38 @@ header {
   position: relative;
   top: -143; }
 
-/* line 300, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
-footer p {
-  color: #FFFFFF; }
-/* line 304, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
-footer .right {
-  float: right;
-  position: relative;
-  top: 22px; }
-/* line 310, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
-footer .left {
-  float: left; }
-/* line 315, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
-footer ul li {
-  float: left;
-  margin-left: 20px;
-  color: #132C51;
-  font-weight: 600; }
-  /* line 321, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
-  footer ul li img {
-    height: 14px;
-    margin-right: 5px;
+/* line 358, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+footer {
+  background: #111111;
+  padding-bottom: 0; }
+  /* line 362, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+  footer p {
+    color: #FFFFFF; }
+  /* line 366, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+  footer .right {
+    float: right;
     position: relative;
-    top: 2px; }
-/* line 329, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
-footer ul .mail-to {
-  cursor: pointer; }
+    top: 22px; }
+  /* line 372, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+  footer .left {
+    float: left; }
+  /* line 376, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+  footer ul {
+    margin-top: 10px !important; }
+    /* line 378, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+    footer ul li {
+      float: left;
+      margin-left: 20px;
+      color: #FFFFFF;
+      font-weight: 600; }
+      /* line 384, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+      footer ul li img {
+        height: 14px;
+        margin-right: 5px;
+        position: relative;
+        top: 2px; }
+    /* line 392, /Users/trand/Sites/007.IK_Construction/www/css/main.scss */
+    footer ul .mail-to {
+      cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */
