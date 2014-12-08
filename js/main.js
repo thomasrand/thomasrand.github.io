@@ -65,6 +65,18 @@ function set_modal_bkg_size(modal) {
     $(modal).find('.modal-bkg').css('height', modal_size + $(window).height()*0.1 + 40 + 'px');
 }
 
+function initalizeScrolltoFixed() {
+    $('header').scrollToFixed({
+        unfixed: function() {
+            $(this).css('background', 'rgba(255,255,255,.25'); 
+            $(this).find('li').css('color', 'rgba(0,0,0,.87)');
+        },
+        fixed: function() {
+            $(this).css('background', 'rgba(255,255,255,.75'); 
+            $(this).find('li').css('color', 'rgba(0,0,0,.87)');
+        }
+    });
+}
 
 
 $(function initalize() {
@@ -72,4 +84,5 @@ $(function initalize() {
     close_modal();
     navigate_to();
     handle_primary_CTA();
+    initalizeScrolltoFixed();
 });
