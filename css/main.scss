@@ -334,11 +334,36 @@ header {
         width: 380px;
         
         img {
-            width: 200px;    
+            width: 200px;  
         }
 
         img:first-child {
             margin-bottom: 20px;
+        }
+
+        .project {
+            float: none;
+            width: 100%;
+            height: auto;
+            margin-bottom: 5px;
+
+            p {
+                padding-top: 130px;
+                color: #FFFFFF;
+                font-style: normal;
+
+            }
+
+            img {
+                width: 100%;
+            }
+            
+        }
+        p {
+            text-align: center;
+            color: $secondary-black;
+            font-size: 12px;
+            font-style: italic;
         }
     }
     

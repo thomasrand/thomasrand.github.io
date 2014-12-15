@@ -13,9 +13,9 @@ function navigate_to() {
         
         var target_section_name = $(this).attr('link-to');
         var target_section = $('#' + target_section_name);
-        var section_loc = target_section.position().top;
+        var section_loc = target_section.position().top - 40;
 
-        $('body').animate({scrollTop:section_loc}, 'slow');
+        $('body').animate({scrollTop:section_loc}, 'slow') ;
     });
 };
 

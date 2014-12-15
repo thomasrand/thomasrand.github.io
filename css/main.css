@@ -232,6 +232,22 @@ header {
       width: 200px; }
     .two-col .right img:first-child {
       margin-bottom: 20px; }
+    .two-col .right .project {
+      float: none;
+      width: 100%;
+      height: auto;
+      margin-bottom: 5px; }
+      .two-col .right .project p {
+        padding-top: 130px;
+        color: #FFFFFF;
+        font-style: normal; }
+      .two-col .right .project img {
+        width: 100%; }
+    .two-col .right p {
+      text-align: center;
+      color: rgba(0, 0, 0, 0.57);
+      font-size: 12px;
+      font-style: italic; }
   .two-col .primary-button {
     margin: 20px 0 0 0; }
 
