@@ -262,6 +262,13 @@ header {
   position: relative;
   top: -143; }
 
+.news-footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #EDEDED; }
+  .news-footer img {
+    width: 200px; }
+
 footer {
   background: #111111;
   padding-bottom: 0; }
