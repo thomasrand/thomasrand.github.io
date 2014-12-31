@@ -1,7 +1,8 @@
 /* ----- RESETS ----- */  
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0; 
+}
 
 
 /* ------ GLOBAL STYLES ----- */
@@ -327,6 +328,21 @@ section:last-child {
 
 }
 
+.registry-link {
+  display: block; 
+  cursor: pointer;
+
+  img {
+    display: block;
+    margin: 50px auto 50px auto;
+    opacity: .5;
+  }
+
+  img:hover {
+    opacity: 1;
+  }
+
+}
 
 
 

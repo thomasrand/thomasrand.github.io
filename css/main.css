@@ -243,4 +243,14 @@ section:last-child {
   color: #B39697;
   outline: none; }
 
+.registry-link {
+  display: block;
+  cursor: pointer; }
+  .registry-link img {
+    display: block;
+    margin: 50px auto 50px auto;
+    opacity: .5; }
+  .registry-link img:hover {
+    opacity: 1; }
+
 /*# sourceMappingURL=main.css.map */
