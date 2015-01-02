@@ -215,6 +215,12 @@ section:last-child {
   z-index: 10000000;
   border-top: 0; }
 
+#rsvp-link {
+  padding: 0 10px;
+  background-color: #FFD5D8; }
+  #rsvp-link a span {
+    color: #996266; }
+
 /* ----- FORM STYLES ----- */
 #mc_embed_signup .mc-field-group label {
   display: block;
@@ -248,7 +254,7 @@ section:last-child {
   border-radius: 4px;
   box-shadow: 0 2px 0 0 #CCABAD;
   cursor: pointer;
-  color: #B39697;
+  color: #996266;
   outline: none; }
 
 .registry-link {
@@ -265,5 +271,13 @@ section:last-child {
 .registry-link:hover {
   opacity: 1;
   border: 1px solid black; }
+
+.macys {
+  height: 135px;
+  padding: 0; }
+  .macys img {
+    width: 360px;
+    position: relative;
+    top: 20px; }
 
 /*# sourceMappingURL=main.css.map */
