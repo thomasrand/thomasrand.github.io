@@ -31,6 +31,9 @@ a {
 a:active {
   color: #00a0dd; }
 
+a:hover {
+  text-decoration: underline; }
+
 .wrapper {
   padding-left: 20px;
   padding-right: 20px;
